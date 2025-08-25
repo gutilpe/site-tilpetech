@@ -168,32 +168,32 @@
 
 
     <!-- Contato -->
-    <section id="contato" class="container" aria-labelledby="contact-title">
-      <h2 id="contact-title" class="section-title">Contato</h2>
-      <p class="section-sub">Preencha o formulário e retornamos rapidinho.</p>
-      <form id="formContato" class="grid" style="grid-template-columns:1fr 1fr; gap:1rem" novalidate>
-        <div class="card" style="grid-column:span 2">
-          <label class="sr-only" for="nome">Nome</label>
-          <input id="nome" name="nome" placeholder="Seu nome" required style="width:100%; background:transparent; border:none; color:var(--text); font:inherit; padding:.2rem; outline: none;" />
-        </div>
-        <div class="card">
-          <label class="sr-only" for="email">E‑mail</label>
-          <input id="email" name="email" type="email" placeholder="Seu e‑mail" required style="width:100%; background:transparent; border:none; color:var(--text); font:inherit; padding:.2rem; outline: none;" />
-        </div>
-        <div class="card">
-          <label class="sr-only" for="telefone">Telefone</label>
-          <input id="telefone" name="telefone" inputmode="tel" placeholder="Seu telefone" style="width:100%; background:transparent; border:none; color:var(--text); font:inherit; padding:.2rem; outline: none;" />
-        </div>
-        <div class="card" style="grid-column:span 2">
-          <label class="sr-only" for="mensagem">Mensagem</label>
-          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte rapidamente seu projeto" required style="width:100%; background:transparent; border:none; color:var(--text); font:inherit; padding:.2rem; outline:none"></textarea>
-        </div>
-        <div style="grid-column:span 2; display:flex; justify-content:space-between; align-items:center">
-          <small style="color:var(--muted)">Ao enviar, você concorda com nossa política de privacidade.</small>
-          <button class="btn" type="submit">Enviar mensagem</button>
-        </div>
-      </form>
-    </section>
+<section id="contato" class="container" aria-labelledby="contato-title">
+  <h2 id="contato-title" class="section-title">Contato</h2>
+  <p class="section-sub">Entre em contato diretamente pelos canais abaixo:</p>
+  
+  <div class="grid">
+    <article class="card" aria-labelledby="whats">
+      <h3 id="whats">WhatsApp</h3>
+      <p>
+        <a href="https://wa.me/554299163884" target="_blank" aria-label="Falar no WhatsApp" class="btn">
+          💬 (42) 9916-3884
+        </a>
+      </p>
+    </article>
+    
+    <article class="card" aria-labelledby="email">
+      <h3 id="email">E-mail</h3>
+      <p>
+        <a href="mailto:gustavo.tilpetech@outlook.com" aria-label="Enviar e-mail para Gustavo" class="btn">
+          ✉️ gustavo.tilpetech@outlook.com
+        </a>
+      </p>
+    </article>
+  </div>
+</section>
+
+
   </main>
 
   <footer>
